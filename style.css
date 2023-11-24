@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.title {
+    font-size: 40px;
+}
+.about_text {
+    text-align: center;
+}
+
+.hero {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 4em 0;
+}
+
+.hero-title {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.hero-subtitle {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.about,
+.portfolio {
+    padding: 4em 0;
+}
+
+.about h2,
+.portfolio h2 {
+    text-align: center;
+}
+
+.project {
+    margin-bottom: 2em;
+}
+
+.project img {
+    /* max-width: 60%; */
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project img:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.8em;
+    opacity: 0.8;
+}
